@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--  【レスポンシブデザイン】
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="icon" href=""> -->
+    <title></title>
+</head>
+<body class="d-flex align-items-center">
+  <div class="container d-flex flex-column mx-auto justify-content-center align-items-center w-50 h-50">
+      <h1 id="subject" class="my-5"></h1>
+      <form name="typing" onsubmit="return false" class="my-5">
+        <input name="input" type="text">
+        <button name="input" >送信</button>
+      </form>
+      <p id="timer">制限時間：60秒</p>
+      <p id="correct">正解数：0</p>
+  </div>
+<script type="text/javascript" src="typing.js"></script>
+<style>
+  h1{
+    margin: 0;
+    height: 50px;
+    font-size: 30px;
+  }
+</style>
+</body>
+</html>
+
+<!-- CSS
+@media screen and (max-width: 922px){
+
+}
+-->
